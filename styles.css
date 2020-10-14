@@ -1,0 +1,97 @@
+/*
+#CAEBF2 sky
+#A9A9A9 carbon
+#FF3B3F watermelon
+#EFEFEF neutral
+*/
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #A9A9A9;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+body {
+  background-color: #EFEFEF;
+}
+
+h1 {
+  color: #FF3B3F;
+  font-family: Arial;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.form_entry {
+  font-family: Arial;
+  text-align: center;
+}
+
+fieldset {
+  border-width:6px;
+  background-color: #CAEBF2;
+  width: 300px;
+  margin:auto;
+  border-radius: 5px;
+}
+
+legend {
+  background-color: #EFEFEF;
+  border-style: solid;
+  border-color: #A9A9A9;
+  border-radius: 3px;
+}
+
+.output {
+  text-align: center;
+  font-family: Arial;
+}
+
+p {
+  text-align: center;
+  font-family: Arial;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
+  font-family: Arial;
+  max-width: 150px;
+}
+
+ol {
+  display: table;
+  margin: 0 auto;
+  display: inline-block;
+	text-align: left;
+  font-family: Arial;
+  max-width: 350px;
+}
+
+li {
+  margin: 0 0 7px 0;
+}
+
+select {
+  background-color: #EFEFEF ;
+  position: relative;
+  font-family: Arial;
+}
+
+button {
+  background-color: #EFEFEF ;
+  position: relative;
+  font-family: Arial;
+  border-radius: 3px;
+}
+
+#word {
+  background-color: #EFEFEF;
+}

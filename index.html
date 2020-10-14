@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Wordy Words</title>
+  </head>
+  <body>
+
+    <h1>Wordy Words Search Engine</h1>
+    <hr>
+    <br>
+    <p>This app uses the <a href="https://www.wordsapi.com/">Words API</a> to
+      get any information you want to know about a word, including its definition,
+      synonyms, antonyms, rhyming words and the word used in multiple sentences.</p>
+      <br>
+      <form class="form_entry"> <fieldset>
+        <legend>Enter any word</legend>
+        <input placeholder="Word" id="word">
+        <br>
+        <p></p>
+        <select id="selector">
+          <option value="definitions">Definition</option>
+          <option value="synonyms">Synonyms</option>
+          <option value="antonyms">Antonyms</option>
+          <option value="examples">Examples</option>
+          <option value="rhymes">Rhymes</option>
+        </select>
+
+
+        <p></p>
+        <button id="get_data" class="pure-button pure-button-primary">Let's Go!</button>
+      </fieldset>
+    </form>
+    <div class="output">
+      <h3 id="selection"></h3>
+      <span id="result">Word Info</span>
+    </div>
+
+    <footer>
+      <p>Author: Austin Bakker<br>
+      <p><a href="https://github.com/AuddyBakker/CreativeProject2">GitHub Repo</a></p>
+    </footer>
+    <script text="type/javascript" src="words.js">
+    </script>
+
+  </body>
+</html>
